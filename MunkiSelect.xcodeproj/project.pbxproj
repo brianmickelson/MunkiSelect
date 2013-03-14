@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43938A716F26046000177F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43938A616F26046000177F7 /* Cocoa.framework */; };
+		F43938B116F26046000177F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43938AF16F26046000177F7 /* InfoPlist.strings */; };
+		F43938B316F26046000177F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F43938B216F26046000177F7 /* main.m */; };
+		F43938B716F26046000177F7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F43938B516F26046000177F7 /* Credits.rtf */; };
+		F43938BA16F26046000177F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F43938B916F26046000177F7 /* AppDelegate.m */; };
+		F43938BD16F26047000177F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43938BB16F26047000177F7 /* MainMenu.xib */; };
+		F43938C516F26047000177F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43938C416F26047000177F7 /* SenTestingKit.framework */; };
+		F43938C616F26047000177F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43938A616F26046000177F7 /* Cocoa.framework */; };
+		F43938CE16F26047000177F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43938CC16F26047000177F7 /* InfoPlist.strings */; };
+		F43938D116F26047000177F7 /* MunkiSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43938D016F26047000177F7 /* MunkiSelectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43938C716F26047000177F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F439389B16F26046000177F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43938A216F26046000177F7;
+			remoteInfo = MunkiSelect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43938A316F26046000177F7 /* MunkiSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunkiSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43938A616F26046000177F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F43938A916F26046000177F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F43938AA16F26046000177F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F43938AB16F26046000177F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F43938AE16F26046000177F7 /* MunkiSelect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MunkiSelect-Info.plist"; sourceTree = "<group>"; };
+		F43938B016F26046000177F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F43938B216F26046000177F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F43938B416F26046000177F7 /* MunkiSelect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MunkiSelect-Prefix.pch"; sourceTree = "<group>"; };
+		F43938B616F26046000177F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F43938B816F26046000177F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F43938B916F26046000177F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F43938BC16F26047000177F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F43938C316F26047000177F7 /* MunkiSelectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunkiSelectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43938C416F26047000177F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F43938CB16F26047000177F7 /* MunkiSelectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MunkiSelectTests-Info.plist"; sourceTree = "<group>"; };
+		F43938CD16F26047000177F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F43938CF16F26047000177F7 /* MunkiSelectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MunkiSelectTests.h; sourceTree = "<group>"; };
+		F43938D016F26047000177F7 /* MunkiSelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MunkiSelectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43938A016F26046000177F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43938A716F26046000177F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43938BF16F26047000177F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43938C516F26047000177F7 /* SenTestingKit.framework in Frameworks */,
+				F43938C616F26047000177F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F439389A16F26046000177F7 = {
+			isa = PBXGroup;
+			children = (
+				F43938AC16F26046000177F7 /* MunkiSelect */,
+				F43938C916F26047000177F7 /* MunkiSelectTests */,
+				F43938A516F26046000177F7 /* Frameworks */,
+				F43938A416F26046000177F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43938A416F26046000177F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43938A316F26046000177F7 /* MunkiSelect.app */,
+				F43938C316F26047000177F7 /* MunkiSelectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43938A516F26046000177F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43938A616F26046000177F7 /* Cocoa.framework */,
+				F43938C416F26047000177F7 /* SenTestingKit.framework */,
+				F43938A816F26046000177F7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43938A816F26046000177F7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43938A916F26046000177F7 /* AppKit.framework */,
+				F43938AA16F26046000177F7 /* CoreData.framework */,
+				F43938AB16F26046000177F7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F43938AC16F26046000177F7 /* MunkiSelect */ = {
+			isa = PBXGroup;
+			children = (
+				F43938B816F26046000177F7 /* AppDelegate.h */,
+				F43938B916F26046000177F7 /* AppDelegate.m */,
+				F43938BB16F26047000177F7 /* MainMenu.xib */,
+				F43938AD16F26046000177F7 /* Supporting Files */,
+			);
+			path = MunkiSelect;
+			sourceTree = "<group>";
+		};
+		F43938AD16F26046000177F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43938AE16F26046000177F7 /* MunkiSelect-Info.plist */,
+				F43938AF16F26046000177F7 /* InfoPlist.strings */,
+				F43938B216F26046000177F7 /* main.m */,
+				F43938B416F26046000177F7 /* MunkiSelect-Prefix.pch */,
+				F43938B516F26046000177F7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F43938C916F26047000177F7 /* MunkiSelectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43938CF16F26047000177F7 /* MunkiSelectTests.h */,
+				F43938D016F26047000177F7 /* MunkiSelectTests.m */,
+				F43938CA16F26047000177F7 /* Supporting Files */,
+			);
+			path = MunkiSelectTests;
+			sourceTree = "<group>";
+		};
+		F43938CA16F26047000177F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43938CB16F26047000177F7 /* MunkiSelectTests-Info.plist */,
+				F43938CC16F26047000177F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43938A216F26046000177F7 /* MunkiSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43938D416F26047000177F7 /* Build configuration list for PBXNativeTarget "MunkiSelect" */;
+			buildPhases = (
+				F439389F16F26046000177F7 /* Sources */,
+				F43938A016F26046000177F7 /* Frameworks */,
+				F43938A116F26046000177F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MunkiSelect;
+			productName = MunkiSelect;
+			productReference = F43938A316F26046000177F7 /* MunkiSelect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43938C216F26047000177F7 /* MunkiSelectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43938D716F26047000177F7 /* Build configuration list for PBXNativeTarget "MunkiSelectTests" */;
+			buildPhases = (
+				F43938BE16F26047000177F7 /* Sources */,
+				F43938BF16F26047000177F7 /* Frameworks */,
+				F43938C016F26047000177F7 /* Resources */,
+				F43938C116F26047000177F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43938C816F26047000177F7 /* PBXTargetDependency */,
+			);
+			name = MunkiSelectTests;
+			productName = MunkiSelectTests;
+			productReference = F43938C316F26047000177F7 /* MunkiSelectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F439389B16F26046000177F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rockingham County Public Schools";
+			};
+			buildConfigurationList = F439389E16F26046000177F7 /* Build configuration list for PBXProject "MunkiSelect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F439389A16F26046000177F7;
+			productRefGroup = F43938A416F26046000177F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43938A216F26046000177F7 /* MunkiSelect */,
+				F43938C216F26047000177F7 /* MunkiSelectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43938A116F26046000177F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43938B116F26046000177F7 /* InfoPlist.strings in Resources */,
+				F43938B716F26046000177F7 /* Credits.rtf in Resources */,
+				F43938BD16F26047000177F7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43938C016F26047000177F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43938CE16F26047000177F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F43938C116F26047000177F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F439389F16F26046000177F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43938B316F26046000177F7 /* main.m in Sources */,
+				F43938BA16F26046000177F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43938BE16F26047000177F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43938D116F26047000177F7 /* MunkiSelectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43938C816F26047000177F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43938A216F26046000177F7 /* MunkiSelect */;
+			targetProxy = F43938C716F26047000177F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F43938AF16F26046000177F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43938B016F26046000177F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F43938B516F26046000177F7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43938B616F26046000177F7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F43938BB16F26047000177F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43938BC16F26047000177F7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F43938CC16F26047000177F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43938CD16F26047000177F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F43938D216F26047000177F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F43938D316F26047000177F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F43938D516F26047000177F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MunkiSelect/MunkiSelect-Prefix.pch";
+				INFOPLIST_FILE = "MunkiSelect/MunkiSelect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F43938D616F26047000177F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MunkiSelect/MunkiSelect-Prefix.pch";
+				INFOPLIST_FILE = "MunkiSelect/MunkiSelect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F43938D816F26047000177F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MunkiSelect.app/Contents/MacOS/MunkiSelect";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MunkiSelect/MunkiSelect-Prefix.pch";
+				INFOPLIST_FILE = "MunkiSelectTests/MunkiSelectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F43938D916F26047000177F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MunkiSelect.app/Contents/MacOS/MunkiSelect";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MunkiSelect/MunkiSelect-Prefix.pch";
+				INFOPLIST_FILE = "MunkiSelectTests/MunkiSelectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F439389E16F26046000177F7 /* Build configuration list for PBXProject "MunkiSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43938D216F26047000177F7 /* Debug */,
+				F43938D316F26047000177F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43938D416F26047000177F7 /* Build configuration list for PBXNativeTarget "MunkiSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43938D516F26047000177F7 /* Debug */,
+				F43938D616F26047000177F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F43938D716F26047000177F7 /* Build configuration list for PBXNativeTarget "MunkiSelectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43938D816F26047000177F7 /* Debug */,
+				F43938D916F26047000177F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F439389B16F26046000177F7 /* Project object */;
+}
